@@ -1,5 +1,5 @@
 import Reveal from './Reveal.jsx'
-
+import resume from '.././../public/resume.pdf'
 const ROLE = {
   company: 'Virinchi Limited',
   title: 'Software Developer — Full Stack (React.js)',
@@ -26,7 +26,7 @@ export default function Experience() {
             <h2 className="font-display text-3xl text-paper">Experience</h2>
           </div>
           <a
-            href="/public/resume.pdf"
+            href={resume}
             download="Aditya-Pati-Resume.pdf"
             className="font-mono text-xs tracking-widest uppercase border border-rule text-muted px-4 py-2 hover:border-brass hover:text-brass transition-colors"
           >
